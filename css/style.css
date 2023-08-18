@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Shadows+Into+Light&display=swap');
+*{
+    text-decoration: none;
+    list-style: none;  
+}
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.logo-nombre{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;  
+}
+.logo-nombre div h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;   
+}
+.menu-principal{
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+    padding-left: 150px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.menu ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+.menu ul button{
+    background-color: #93D443;
+    border-color: #93D443;
+    width: 80px;
+    height: 60px;
+    align-items: center;
+}
+/* Section  */
+.description-one{
+    padding: 60px 100px;
+}
+.description-one h1{
+    font-size: 90px;
+    font-weight: 800;
+    padding-top: 25px;
+}
+.description-one p{
+    font-size: 33px;
+    font-weight: 200;
+    padding-top: 60px;
+}
+.description-one div{
+    padding-top: 40px;
+}
+.description-one div button{
+    background-color: #93D443;
+    border-color: #93D443;
+    margin-top: 50px;
+    height: 90px;
+    width: 150px;
+    font-size: 20px;
+}
+.description-one div button:hover{
+    background-color: #96F7FD;
+    border-color: #96F7FD;
+    color: black;
+}
+#top{
+    margin: 0px 0px;
+}
+.producto-top{
+    height: 800px;
+    width: 800px;
+}
+.producto-top .fondo-top{
+    height: 800px;
+    width: 800px;
+    margin-left: 135px;
+}
+.producto-top .producto{
+    margin-top: -800px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.producto-top .producto:hover{
+    transform: scale(1.2);
+}
+/* Otros Productos */
+
+.otros{
+    background-color:#E2F6CA ;
+    margin-top: 80px;
+}
+.otros h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+.galery{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+    overflow-x: scroll;
+}
+.content{
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+    background: #96F7FD;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+.content a h5{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+.content a p{
+    font-size: 23px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.precios{
+    background-color: #93D443;
+    width: 150px;
+    height: 37px;
+    border-radius: 10px;
+    margin-left: 98px;
+}
+.precios:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+.producto-card{
+    width: 220px;
+    height: 300px;
+    transition: 0.3s;
+    object-fit: cover;
+}
+.producto-card:hover{
+    transform: scale(1.1);
+}
+
+/* Promociones */
+.ventajas{
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.ventajas h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.ventajas p{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.ventajas div{
+    align-items: center;
+}
+.row div .card{
+    border: none;
+    margin-top: 50px;
+}
+.row div div div .text-h4{
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+.text-ven p{
+    font-size: 23px;
+}
+#ventajas-img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Footer  */
+
+footer{
+    height: 190px;
+    width: 100%;
+    background-color: rgb(54, 94, 112);
+    align-items: center;
+    text-align: center;
+    padding-top: 35px;
+}
+footer div div a{
+    text-decoration:  none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
+}
+footer div div h3{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.empresa h3{
+    margin-bottom: 20px;
+}
+.ayuda h3{
+    margin-bottom: 20px;
+}
+.redes h3{
+    margin-bottom: 30px;
+}
+.ptwo{
+    display: none;
+}
+#button-phone{
+    display: none;
+}
+hr{
+    display: none;
+}
+/* for phone */
+@media (min-width: 320px) and (max-width: 767px){
+    .menu ul li{
+        display: none;
+    }
+    .description-one h1{
+        font-size: 50px;
+        font-weight: 800;
+        align-items: center;
+        text-align: center;
+    }
+    .description-one .pone{
+        display: none;
+    }
+    .description-one .ptwo{
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+    .description-one div button{
+        display: none;
+    }
+    .producto-top{
+        height: 650px;
+        width: 570px;
+        padding-top: 0px;
+    }
+    .producto-top .producto{
+        height: 550;
+        width: 550px;
+    }
+    .producto-top .fondo-top{
+        height: 550px;
+        width: 550px;
+        margin-left: 100px;
+    }
+    .producto-top .producto{
+        margin-top: -600px;
+        transition: 0.5s;
+        object-fit: cover;
+        margin-left: 40px;
+    }
+    .producto-top .producto:hover{
+        transform: scale(1.2);
+    }
+    #button-phone{
+        display: block;
+    }
+    div .button-sm{
+        display: flex;
+        background-color: #93D443;
+        width: 150px;
+        border-radius: 10px;
+        height: 100px;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40%;
+    }
+    div .button-sm:hover{
+        background-color: #96F7FD;
+        border-color: #96F7FD;
+        color: black;
+    }
+    .content{
+        width: 70%;
+    }
+    .content a h5{
+        color: azure
+    }
+    .precios{
+        background-color: green;
+        width: 150px;
+        height: 37px;
+        border-radius: 10px;
+        margin-left: 170px;
+    }
+    #ventajas-img {
+        height: 120px;
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    .row div .card {
+        border: none;
+        margin-top: 100px;
+    }
+    .ventajas div h3{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .ventajas div p{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .row div div div .text-h4 {
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    hr{
+        display: block;
+    }
+    footer {
+        height: 480px;
+    }
+    footer div div{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* for tablet */
+@media (min-width: 768px) and (max-width: 991px){
+    
+    #separador{
+        display: block;
+    }
+    .menu ul{
+        margin-top: 20px;
+    }
+    .menu ul li a{
+        font-size: 15px;
+    }
+    .description-one h1{
+        font-size: 35px;
+        font-weight: 800;
+        
+    }
+    .description-one p{
+        font-size: 25px;
+        font-weight: 200px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .description-one div {
+        padding-top: 0px;
+    }
+    .producto-top{
+        height: 650px;
+        width: 570px;
+        padding-top: 130px;
+    }
+    .producto-top .producto{
+        height: 550;
+        width: 550px;
+        margin-left: -40px;
+    }
+    .producto-top .fondo-top{
+        height: 550px;
+        width: 550px;
+        margin: 0px;
+        margin-left: -10px;
+    }
+    
+    .producto-top .producto{
+        margin-top: -600px;
+        transition: 0.5s;
+        object-fit: cover;
+    }
+    .producto-top .producto:hover{
+        transform: scale(1.2);
+    }
+    
+    .precios{
+        margin-left: 100px;
+    }
+    .galery  .content{
+        width: 40%;
+        align-items: center;
+    }
+    .ventajas h3{
+        font-size: 33px;
+    }
+    .ventajas p{
+        font-size: 40px;
+    }
+
+    .text-ven p {
+        font-size: 23px;
+    }
+    .separador{
+        display: block;
+    }
+    footer{
+        height: 300px;
+    }
+}
